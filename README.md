@@ -6,7 +6,7 @@ M4Rextract creates a M4R audio extract from a youtube video in an easy way.
 
 Build the Docker image:
 ```python
-docker build -t tonemaker .
+docker build -t m4rextract .
 ```
 Every time you want to generate a new audio extract, run the container as follows:
 ```python

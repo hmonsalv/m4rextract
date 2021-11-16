@@ -16,7 +16,7 @@ For example:
 ```python
 docker run -it --rm -v /path/to/output/folder:/app/m4r m4rextract m4rextract.sh "My audio extract" "https://www......." 0 30
 ```
-M4Rextract will generate the **My audio extract.m4r** audio extratct from the youtube video starting on **0:30**, will save it to **/path/to/output/folder**, and will destrroy the container once done.
+M4Rextract will generate the **My audio extract.m4r** audio extractt from the youtube video starting on **0:30**, will save it to **/path/to/output/folder**, and will destroy the container once done.
 
 ## Dependencies
 

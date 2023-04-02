@@ -13,7 +13,8 @@
 #   python youtubetomp3.py https://www.youtube.com/watch?v=_abcdef
 
 
-import youtube_dl
+#import youtube_dl
+import yt_dlp
 import sys
 
 ydl_opts = {
@@ -26,7 +27,7 @@ ydl_opts = {
 }
 
 if __name__ == "__main__":
-    with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         filenames = sys.argv[1:]
         ydl.download(filenames)
 

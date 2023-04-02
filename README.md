@@ -23,6 +23,6 @@ M4Rextract will generate the **My audio extract.m4r** audio extract from the you
 M4Rextract uses the following python libraries:
 
  - [pydub](https://github.com/jiaaro/pydub)
- - [youtube_dl](https://github.com/ytdl-org/youtube-dl)
+ - [yt-dlp](https://github.com/ytdl-patched/yt-dlp)
 
 And also, for audio format conversion: [ffmpeg](http://www.ffmpeg.org/)
